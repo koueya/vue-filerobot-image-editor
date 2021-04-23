@@ -1,7 +1,7 @@
 {
   "name": "@rotsen/vue-filerobot-image-editor",
   "description": "Filerobot-image-editor from vuejs",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "author": "Nestor Koueya <koueya@gmail.com>",
   "main": "dist/vue-filerobot-image-editor.umd.js",
   "module": "dist/vue-filerobot-image-editor.esm.js",
