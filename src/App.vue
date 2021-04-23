@@ -5,10 +5,10 @@
     <FilerobotImageEditor
       v-if="openEditor"
       :src="url"
-      @onClose="handleClose"
-      @onComplete="handleComplete"
-      @onError="handleError"
-      @onBeforeComplete="onBeforeComplete"
+      @close="handleClose"
+      @cmplete="handleComplete"
+      @error="handleError"
+      @beforeComplete="onBeforeComplete"
     />
   </div>
 </template>
@@ -41,7 +41,8 @@ export default {
       this.handleCloseEditor();
     },
     onBeforeComplete(element){
-      console.error(element.canvas.toDataURL())
+      this.url=element.canvas.toDataURL();
+      // console.error(element.canvas.toDataURL())
     },
     handleComplete(element, file) {
       // console.log(url )
