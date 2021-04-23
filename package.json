@@ -3,7 +3,6 @@
   "description": "Filerobot-image-editor from vuejs",
   "version": "0.1.0",
   "author": "Nestor Koueya <koueya@gmail.com>",
-  "private": true,
   "main": "dist/vue-filerobot-image-editor.umd.js",
   "module": "dist/vue-filerobot-image-editor.esm.js",
   "unpkg": "dist/vue-filerobot-image-editor.min.js",
